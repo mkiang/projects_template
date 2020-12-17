@@ -97,7 +97,7 @@ when they were accessed, use `README` files liberally.
     so it is easier to skip around in [the Document
     Outline](https://blog.rstudio.com/2020/12/02/rstudio-v1-4-preview-little-things/):
 
-![](https://d33wubrfki0l68.cloudfront.net/10970e31914f0c77622eec46163cd64a6eda6630/af427/2020/12/02/rstudio-v1-4-preview-little-things/document-outline.png)
+![](./plots/example_screenshot.png)
 
 -   Except for `./misc`, file names should not contain spaces — use `_`
     instead. For things like `./manuscript`, use numbers to keep things

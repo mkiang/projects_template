@@ -63,7 +63,7 @@ In theory, each subfolder should have its own `README.[R]md` file containing inf
 - If you have a lot of functions in a single file (e.g., `utils.R`), use the `roxygen2` documentation style so we can rapidly convert it to an R package as necessary.
 - Structure your code using markdown headers and four dashes (`----`) so it is easier to skip around in [the Document Outline](https://blog.rstudio.com/2020/12/02/rstudio-v1-4-preview-little-things/):
 
-![](https://d33wubrfki0l68.cloudfront.net/10970e31914f0c77622eec46163cd64a6eda6630/af427/2020/12/02/rstudio-v1-4-preview-little-things/document-outline.png)
+![](./plots/example_screenshot.png)
 
 - Except for `./misc`, file names should not contain spaces — use `_` instead. For things like `./manuscript`, use numbers to keep things in order (e.g., `00_cover_letter_*.doc`, `01_manuscript_*.doc`, `02_supplement_*.doc`) with the dates in YYYYMMDD format at the end of each file. 
 - Functions should be verbs and, when possible, should be pipe-able. 
