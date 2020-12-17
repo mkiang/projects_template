@@ -58,7 +58,7 @@ In theory, each subfolder should have its own `README.[R]md` file containing inf
 ## Style guide
 
 - Code should more or less follow the [tidyverse style guide](https://style.tidyverse.org/). 
-- Clarify of code should be valued above optimized and fast code. Optimization can occur after we have tests in place, but prototyping code should always be as readable as possible. 
+- Clarity of code should be valued above optimized and fast code. Optimization can occur after we have tests in place, but prototyping code should always be as readable as possible. 
 - Document your code excessively during prototyping. We can always clean that up as we get to a final product.
 - If you have a lot of functions in a single file (e.g., `utils.R`), use the `roxygen2` documentation style so we can rapidly convert it to an R package as necessary.
 - Structure your code using markdown headers and four dashes (`----`) so it is easier to skip around in [the Document Outline](https://blog.rstudio.com/2020/12/02/rstudio-v1-4-preview-little-things/):

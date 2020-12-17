@@ -85,7 +85,7 @@ when they were accessed, use `README` files liberally.
 
 -   Code should more or less follow the [tidyverse style
     guide](https://style.tidyverse.org/).
--   Clarify of code should be valued above optimized and fast code.
+-   Clarity of code should be valued above optimized and fast code.
     Optimization can occur after we have tests in place, but prototyping
     code should always be as readable as possible.
 -   Document your code excessively during prototyping. We can always
